@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+   >
+
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select your bed type"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <RadioButton
+                    android:id="@+id/sBedType1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:text="Covid General Bed"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    />
+                <RadioButton
+                    android:id="@+id/sBedType2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:text="Non Covid General Bed"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    />
+                <RadioButton
+                    android:id="@+id/sBedType3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:text="Covid ICU General Bed"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    />
+                <RadioButton
+                    android:id="@+id/sBedType4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:text="Non Covid ICU General Bed"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No of Booking Bed "
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/sBnoOfBookingBed"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_backgr"
+            android:backgroundTint="@color/white"
+            android:fontFamily="serif"
+            android:text="Add Bed"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            app:backgroundTint="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="40dp"
+            />
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_backgr"
+            android:backgroundTint="@color/white"
+            android:fontFamily="serif"
+            android:text="Minus Bed"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            app:backgroundTint="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

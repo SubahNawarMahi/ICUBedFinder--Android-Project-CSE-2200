@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="password" type="id" />
+    <item name="email" type="id" />
+    <item name="forgotpassword" type="id" />
+    <item name="forgotpass" type="id" />
+    <item name="createacc" type="id" />
+    <item name="loginb" type="id" />
+</resources>

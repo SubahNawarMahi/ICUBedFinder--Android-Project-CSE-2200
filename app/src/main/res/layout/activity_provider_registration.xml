@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Provider_registration"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar4"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+             >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:fontFamily="@font/raleway"
+                   android:gravity="center_horizontal"
+                   android:text="Hospital Info"
+                   android:textAlignment="center"
+                   android:textColor="@color/purple_200"
+                   android:textSize="30dp"
+                   android:textStyle="bold" />
+
+               <EditText
+                   android:id="@+id/hospitalName"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Hospital Name"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858"
+                   android:visibility="gone" />
+
+               <EditText
+                   android:id="@+id/addresshospital"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Hospital Address"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858" />
+               <EditText
+                   android:id="@+id/districtname"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="District"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858"
+                   />
+
+               <EditText
+                   android:id="@+id/contact"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858"
+                   android:maxLength="11"
+                   android:hint="Contact Number"
+                   android:inputType="phone"
+                   android:padding="10dp"/>
+               <EditText
+                   android:id="@+id/Totalbed"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:textColorHint="#5E5858"
+                   android:hint="Total ICU Bed"
+                   android:textColor="@color/black"
+                   android:inputType="number"
+                   android:padding="10dp"/>
+               <EditText
+                   android:id="@+id/Availablebed"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:textColorHint="#5E5858"
+                   android:hint="Available ICU Bed"
+                   android:textColor="@color/black"
+                   android:inputType="number"
+                   android:padding="10dp"/>
+
+
+               <EditText
+                   android:id="@+id/covidGeneralBed"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Covid General Bed"
+                   android:textColorHint="#5E5858"
+                   android:textColor="@color/black"
+                   android:inputType="number"
+                   android:padding="10dp"
+                   />
+
+               <EditText
+                   android:id="@+id/covidGeneralBedPrice"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Covid General Bed Price"
+                   android:textColorHint="#5E5858"
+                   android:textColor="@color/black"
+                   android:inputType="number"
+                   android:padding="10dp"
+                   />
+
+               <EditText
+                   android:id="@+id/nonCovidGeneralBed"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Non Covid General Bed"
+                   android:textColorHint="#5E5858"
+                   android:textColor="@color/black"
+                   android:inputType="number"
+                   android:padding="10dp"/>
+               <EditText
+                   android:id="@+id/nonCovidGeneralBedPrice"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Non Covid General Bed Price"
+                   android:textColorHint="#5E5858"
+                   android:textColor="@color/black"
+                   android:inputType="number"
+                   android:padding="10dp"/>
+
+
+               <EditText
+                   android:id="@+id/covidICUGeneralBed"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Covid ICU General Bed"
+                   android:inputType="number"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858" />
+               <EditText
+                   android:id="@+id/covidICUGeneralBedPrice"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Covid ICU General Bed Price"
+                   android:inputType="number"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858" />
+
+               <EditText
+                   android:id="@+id/nonCovidICUGeneralBed"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Non Covid ICU General Bed "
+                   android:inputType="number"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858" />
+
+               <EditText
+                   android:id="@+id/nonCovidICUGeneralBedPrice"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:hint="Non Covid ICU General Bed Price"
+                   android:inputType="number"
+                   android:padding="10dp"
+                   android:textColor="@color/black"
+                   android:textColorHint="#5E5858" />
+               <EditText
+                   android:id="@+id/emailid"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:textColorHint="#5E5858"
+                   android:drawableLeft="@drawable/ic_baseline_email_24"
+                   android:hint="Email"
+                   android:textColor="@color/black"
+                   android:padding="10dp"
+
+                   />
+               <EditText
+                   android:id="@+id/password"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:textColorHint="#5E5858"
+                   android:textColor="@color/black"
+                   android:drawableLeft="@drawable/ic_baseline_lock_24"
+                   android:hint="Password"
+                   android:inputType="textPassword"
+                   android:padding="10dp"/>
+
+               <TextView
+                   android:id="@+id/loginacc"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="20dp"
+                   android:fontFamily="@font/raleway"
+                   android:gravity="center_horizontal"
+                   android:text="Already registered? Log in"
+                   android:textAlignment="center"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+
+                   />
+
+               <Button
+                   android:id="@+id/registerb"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="80dp"
+                   android:layout_marginTop="30dp"
+                   android:layout_marginRight="80dp"
+                   android:layout_marginBottom="40dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:text="Register"
+                   android:textAllCaps="false"
+                   android:textColor="@color/white"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   app:backgroundTint="@color/purple_500" />
+
+
+               <Button
+                   android:id="@+id/updateBtnId"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="80dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="80dp"
+                   android:layout_marginBottom="40dp"
+                   android:background="@drawable/search_bg"
+                   android:fontFamily="@font/raleway"
+                   android:text="Update"
+                   android:textAllCaps="false"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   app:backgroundTint="@color/purple_500" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

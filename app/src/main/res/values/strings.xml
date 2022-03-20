@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ICU BED</string>
+    <string name="t1">You can be connected to us and find information about icu bed availability in hospitals with this app</string>
+    <string name="t2">Find info about different hospitals here</string>
+</resources>

@@ -1,4 +1,4 @@
-## Welcome to the ICUBedFinder wiki!
+## Welcome to the ICUBedFinder!
 ## Subah Nawar
 ICU Bed Finder App is an android app developed using Android Studio Platform. It is a simple app with following features:-
 1. The app collects the information of available hospital beds including icu bed, general beds from various hospitals.

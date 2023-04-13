@@ -20,11 +20,11 @@ ICU Bed Finder App is an android app developed using Android Studio Platform. It
 9. Easy to use
 
 <p align="center">
-<img width="190" src="icubedfinder_design/image1.jpg" />
-<img width="190" src="icubedfinder_design/image2.jpg" />
-<img width="190" src="icubedfinder_design/image3.jpg" />
-<img width="190" src="icubedfinder_design/image4.jpg" />
-<img width="190" src="icubedfinder_design/image5.jpg" />
+<img width="190" src="icubedfinder_design/image1.jpeg" />
+<img width="190" src="icubedfinder_design/image2.jpeg" />
+<img width="190" src="icubedfinder_design/image3.jpeg" />
+<img width="190" src="icubedfinder_design/image4.jpeg" />
+<img width="190" src="icubedfinder_design/image5.jpeg" />
 </p>
 
 
